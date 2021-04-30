@@ -38,7 +38,7 @@ public class Main {
         userManager.update(student1);
         userManager.update(instructor1);
 
-        //show all Users
+        //add all Users
         User[] users = {student1,student2,instructor1};
         userManager.addMultiple(users);
 
