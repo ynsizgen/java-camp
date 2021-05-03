@@ -9,10 +9,12 @@ import java.time.LocalDate;
 public class Main {
     public static void main(String[] args) throws Exception {
 
-        LocalDate date = LocalDate.of(1993,5,17);
-        Customer customer1 = new Customer(1,"Yunus","Ün",date,"1234567890");
+
+        Customer customer1 = new Customer(1,"Yunus","Ün",LocalDate.of(1993,5,17),"1234567890");
 
         BaseCustomerManager customerManager = new StarbucksCustomerManager(new CustomerCheckManager());
         customerManager.save(customer1);
+
+        System.out.println(customer1.getDateOfBirth());
     }
 }
