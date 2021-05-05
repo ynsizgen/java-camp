@@ -21,10 +21,10 @@ public class Main {
         Product product1 = new Product(1,"Fifa 2021",400.00,350.00);
         Product product2 = new Product(2,"Mount & Blade",200.00,150.00);
         Product product3 = new Product(3,"World Of Warcraft",300.99,200.00);
-
         adminManager.add(product1);
         adminManager.add(product2);
         adminManager.add(product3);
+
         System.out.println("4---------------------------------");
         products= new Product[]{product1, product2, product3};
         adminManager.showAllProducts(products,admin);

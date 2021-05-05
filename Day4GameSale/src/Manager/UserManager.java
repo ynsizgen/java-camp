@@ -5,7 +5,7 @@ import Model.Product;
 import Model.User;
 import Service.IUserCheckService;
 import Service.IUserService;
-import java.io.PrintStream;
+
 
 public class UserManager implements IUserService, IUserCheckService {
     public UserManager() {

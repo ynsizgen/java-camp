@@ -29,7 +29,6 @@ public class AdminManager implements IAdminService {
             System.out.println(product);
         }
 
-
     }
 
     public void changeDiscount(double tutar, Product product, Admin admin) {
