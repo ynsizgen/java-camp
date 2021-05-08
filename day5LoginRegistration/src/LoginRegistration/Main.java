@@ -1,3 +1,5 @@
+package LoginRegistration;
+
 import LoginRegistration.business.abstracts.UserService;
 import LoginRegistration.business.concretes.UserManager;
 import LoginRegistration.business.concretes.ValidationManager;
